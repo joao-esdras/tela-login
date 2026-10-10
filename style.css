@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0EEED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form-login {
+    height: 70vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 10px;
+}
+#form-titles {
+    text-align: center;
+    margin-top: 2vh;
+}
+#form-titles h1{
+    margin-bottom: 1vh;
+    color: #A60F09;
+    font-size: 36px;
+}
+#form-titles p {
+    font-size: 16px;
+    color: rgb(85, 84, 84);
+}
+#form-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+#form-inputs input {
+    width: 80%;
+    height: 5vh;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(180, 176, 176);
+    padding-left: 10px;
+}
+#esqueci-senha {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+#conectado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 1vw;
+}
+#conectado input {
+    width: 15px;
+    margin-bottom: 0 !important;
+}
+#conectado p {
+    color: rgb(180, 176, 176);
+}
+#esqueci-senha a {
+    color: #A60F09;
+    font-size: 14px;
+    text-decoration: none;
+}
+#form-inputs button {
+    width: 80%;
+    height: 6vh;
+    background-color: #A60F09;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+#texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+#texts p {
+    font-size: 14px;
+    color: rgb(131, 129, 129);
+    margin-bottom: 2vh;
+}
+#texts a {
+    color: #A60F09;
+    text-decoration: none;
+}
